@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="container" id="container">
+    <!-- Đăng ký -->
+    <div class="form-container sign-up">
+      <form id="form-register" novalidate>
+        <h1>Tạo tài khoản</h1>
+        
+        <div class="field">
+          <input
+            type="text"
+            id="cccd-register"
+            placeholder="Mã số CCCD"
+            inputmode="numeric"
+            required
+          />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="reg-password">Mật khẩu</label>
+          <div class="password-container">
+            <input
+              type="password"
+              id="reg-password"
+              placeholder="Mật khẩu"
+              required
+            />
+            <span class="toggle-password" aria-controls="reg-password" title="Hiện/ẩn mật khẩu">👁</span>
+          </div>
+          <small class="error"></small>
+        </div>
+        
+        <button>Đăng ký</button>
+      </form>
+    </div>
+
+    <!-- Đăng nhập -->
+    <div class="form-container sign-in">
+      <form id="form-login" novalidate>
+        <h1>Đăng nhập</h1>
+        <div class="field">
+          <input
+            type="text"
+            id="cccd-login"
+            placeholder="Mã số CCCD"
+            inputmode="numeric"
+            required
+          />
+          <small class="error"></small>
+        </div>
+        <div class="field">
+          <label for="reg-password">Mật khẩu</label>
+          <div class="password-container">
+            <input
+              type="password"
+              id="reg-password"
+              placeholder="Mật khẩu"
+              required
+            />
+            <span class="toggle-password" aria-controls="reg-password" title="Hiện/ẩn mật khẩu">👁</span>
+          </div>
+          <small class="error"></small>
+        </div>
+        
+        <a href="#">Quên mật khẩu?</a>
+        <button>Đăng nhập</button>
+      </form>
+    </div>
+
+    <!-- Hiệu ứng chuyển -->
+    <div class="toggle-container">
+      <div class="toggle">
+        <div class="toggle-panel toggle-left">
+          <h1>Chào mừng trở lại!</h1>
+          <p>Đăng nhập để tra cứu, cập nhật <br/> thông tin nhân khẩu và hộ khẩu.</p>
+          <button class="hidden" id="login">Đăng nhập</button>
+        </div>
+        <div class="toggle-panel toggle-right">
+          <h1>Xin chào quý cư dân!</h1>
+          <p>Vui lòng đăng ký<br/> để khai báo thông tin cư trú.</p>
+          <button class="hidden" id="register">Đăng ký</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript kiểm tra realtime -->
+  <script>
+    // Hiệu ứng chuyển form
+    const container = document.getElementById("container");
+    document.getElementById("register").addEventListener("click", () => {
+      container.classList.add("active");
+    });
+    document.getElementById("login").addEventListener("click", () => {
+      container.classList.remove("active");
+    });
+
+    // Hiển thị lỗi
+    function setError(input, message) {
+      const field = input.closest('.field');
+      const errorEl = field?.querySelector('.error');
+      if (errorEl) errorEl.textContent = message || '';
+      field?.classList.toggle('is-invalid', !!message);
+      input.setAttribute('aria-invalid', !!message);
+    }
+
+    // Kiểm tra CCCD
+    function validateCCCD(input) {
+      const value = input.value.trim();
+      const isValid = /^\d{12}$/.test(value);
+      setError(input, isValid ? '' : 'CCCD phải đủ 12 chữ số.');
+      return isValid;
+    }
+
+    // Kiểm tra mật khẩu
+    function validatePassword(input) {
+      const value = input.value.trim();
+      const isValid = value.length >= 1;
+      setError(input, isValid ? '' : 'Mật khẩu không được để trống.');
+      return isValid;
+    }
+
+    // Gắn sự kiện kiểm tra realtime
+    document.querySelectorAll('#cccd-login, #cccd-register').forEach((input) => {
+      input.addEventListener('input', () => validateCCCD(input));
+      input.addEventListener('blur', () => validateCCCD(input));
+    });
+
+    document.querySelectorAll('#login-password, #reg-password').forEach((input) => {
+      input.addEventListener('input', () => validatePassword(input));
+      input.addEventListener('blur', () => validatePassword(input));
+    });
+  </script>
+</body>
+</html>
