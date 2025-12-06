@@ -4,7 +4,7 @@ with open("./insertNhanKhauHoKhauSQL.sql", "w", encoding="utf-8") as f, open("./
         open("./queQuan/queQuan.txt", "r", encoding="utf-8") as qq:
     id = 1
     for i in range(10): #chỉnh dòng này thành in range(11, 20) (21, 30) tùy vào số lượng hộ hiện tại 
-        sql = f"INSERT INTO ho_khau VALUES ({i+1}, 'Số {random.randint(1, 20)} ngách {random.randint(1, 50)} Ngõ {random.randint(355,359)} Minh Khai, Phường Vĩnh Tuy', null);\n"
+        sql = f"INSERT INTO ho_khau VALUES ({i+1}, 'Số {random.randint(1, 20)} ngách {random.randint(1, 50)} Ngõ {random.randint(355,359)} Minh Khai, Phường Vĩnh Tuy', 'Thường trú');\n"
         f.write(sql)
         for j in range(5):
             cccd = g.readline().strip()

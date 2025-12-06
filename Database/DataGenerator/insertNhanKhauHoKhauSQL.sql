@@ -1,4 +1,4 @@
-INSERT INTO ho_khau VALUES (1, 'Số 18 ngách 1 Ngõ 357 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (1, 'Số 19 ngách 12 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (1,'015219022550', 'Võ Văn Thiện' , 'Không có' ,  'Nam' , '2019-9-20' , 'Yên Bái' , 'Yên Bái' , 'Kinh' , null , null , 'Yên Bái' , '2025-10-31', '015219022550');
 INSERT INTO nhan_khau VALUES (1, 1,'Chủ hộ', '2019-9-20' , null );
 INSERT INTO cong_dan VALUES (2,'020305006891', 'Lý Thu An' , 'Không có' ,  'Nữ' , '2005-11-30' , 'Lạng Sơn' , 'Lạng Sơn' , 'Kinh' , null , null , 'Lạng Sơn' , '2025-10-31', '020305006891');
@@ -9,7 +9,7 @@ INSERT INTO cong_dan VALUES (4,'074307029488', 'Phạm Khánh Diễm' , 'Không 
 INSERT INTO nhan_khau VALUES (4, 1,'Con ruột', '2007-2-12' , null );
 INSERT INTO cong_dan VALUES (5,'070193005762', 'Lý An Uyên' , 'Không có' ,  'Nữ' , '1993-1-10' , 'Bình Phước' , 'Bình Phước' , 'Kinh' , null , null , 'Bình Phước' , '2025-10-31', '070193005762');
 INSERT INTO nhan_khau VALUES (5, 1,'Con ruột', '1993-1-10' , null );
-INSERT INTO ho_khau VALUES (2, 'Số 10 ngách 19 Ngõ 355 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (2, 'Số 16 ngách 10 Ngõ 356 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (6,'015210029700', 'Đỗ Phúc Tài' , 'Không có' ,  'Nam' , '2010-8-18' , 'Yên Bái' , 'Yên Bái' , 'Kinh' , null , null , 'Yên Bái' , '2025-10-31', '015210029700');
 INSERT INTO nhan_khau VALUES (6, 2,'Chủ hộ', '2010-8-18' , null );
 INSERT INTO cong_dan VALUES (7,'006205016356', 'Phạm Trang Bình' , 'Không có' ,  'Nam' , '2005-9-5' , 'Bắc Kạn' , 'Bắc Kạn' , 'Kinh' , null , null , 'Bắc Kạn' , '2025-10-31', '006205016356');
@@ -20,7 +20,7 @@ INSERT INTO cong_dan VALUES (9,'095181022615', 'Phạm Khánh Trang' , 'Không c
 INSERT INTO nhan_khau VALUES (9, 2,'Con ruột', '1981-11-5' , null );
 INSERT INTO cong_dan VALUES (10,'027310021996', 'Nguyễn Thùy Minh' , 'Không có' ,  'Nữ' , '2010-3-3' , 'Bắc Ninh' , 'Bắc Ninh' , 'Kinh' , null , null , 'Bắc Ninh' , '2025-10-31', '027310021996');
 INSERT INTO nhan_khau VALUES (10, 2,'Con ruột', '2010-3-3' , null );
-INSERT INTO ho_khau VALUES (3, 'Số 9 ngách 10 Ngõ 358 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (3, 'Số 7 ngách 27 Ngõ 357 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (11,'094181002195', 'Bùi Thu Khánh' , 'Không có' ,  'Nữ' , '1981-10-7' , 'Sóc Trăng' , 'Sóc Trăng' , 'Kinh' , null , null , 'Sóc Trăng' , '2025-10-31', '094181002195');
 INSERT INTO nhan_khau VALUES (11, 3,'Chủ hộ', '1981-10-7' , null );
 INSERT INTO cong_dan VALUES (12,'042314006243', 'Võ Thùy Thảo' , 'Không có' ,  'Nữ' , '2014-2-24' , 'Hà Tĩnh' , 'Hà Tĩnh' , 'Kinh' , null , null , 'Hà Tĩnh' , '2025-10-31', '042314006243');
@@ -31,7 +31,7 @@ INSERT INTO cong_dan VALUES (14,'052196028259', 'Võ Ánh Hạnh' , 'Không có'
 INSERT INTO nhan_khau VALUES (14, 3,'Con ruột', '1996-2-17' , null );
 INSERT INTO cong_dan VALUES (15,'054085029356', 'Hoàng Bảo Tài' , 'Không có' ,  'Nam' , '1985-9-11' , 'Phú Yên' , 'Phú Yên' , 'Kinh' , null , null , 'Phú Yên' , '2025-10-31', '054085029356');
 INSERT INTO nhan_khau VALUES (15, 3,'Con ruột', '1985-9-11' , null );
-INSERT INTO ho_khau VALUES (4, 'Số 6 ngách 29 Ngõ 356 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (4, 'Số 17 ngách 11 Ngõ 358 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (16,'094214032241', 'Dương Minh Khoa' , 'Không có' ,  'Nam' , '2014-3-21' , 'Sóc Trăng' , 'Sóc Trăng' , 'Kinh' , null , null , 'Sóc Trăng' , '2025-10-31', '094214032241');
 INSERT INTO nhan_khau VALUES (16, 4,'Chủ hộ', '2014-3-21' , null );
 INSERT INTO cong_dan VALUES (17,'023082000064', 'Đặng Trang Sơn' , 'Không có' ,  'Nam' , '1982-5-25' , 'Bắc Giang' , 'Bắc Giang' , 'Kinh' , null , null , 'Bắc Giang' , '2025-10-31', '023082000064');
@@ -42,7 +42,7 @@ INSERT INTO cong_dan VALUES (19,'079173011516', 'Vũ An Khánh' , 'Không có' ,
 INSERT INTO nhan_khau VALUES (19, 4,'Con ruột', '1973-4-11' , null );
 INSERT INTO cong_dan VALUES (20,'002182005067', 'Võ Khánh Ngọc' , 'Không có' ,  'Nữ' , '1982-1-19' , 'Hà Giang' , 'Hà Giang' , 'Kinh' , null , null , 'Hà Giang' , '2025-10-31', '002182005067');
 INSERT INTO nhan_khau VALUES (20, 4,'Con ruột', '1982-1-19' , null );
-INSERT INTO ho_khau VALUES (5, 'Số 10 ngách 4 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (5, 'Số 15 ngách 28 Ngõ 355 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (21,'084302013839', 'Dương Diễm Vân' , 'Không có' ,  'Nữ' , '2002-3-13' , 'Trà Vinh' , 'Trà Vinh' , 'Kinh' , null , null , 'Trà Vinh' , '2025-10-31', '084302013839');
 INSERT INTO nhan_khau VALUES (21, 5,'Chủ hộ', '2002-3-13' , null );
 INSERT INTO cong_dan VALUES (22,'046074017254', 'Lý Văn Toàn' , 'Không có' ,  'Nam' , '1974-5-13' , 'Thừa Thiên Huế' , 'Thừa Thiên Huế' , 'Kinh' , null , null , 'Thừa Thiên Huế' , '2025-10-31', '046074017254');
@@ -53,7 +53,7 @@ INSERT INTO cong_dan VALUES (24,'025197026243', 'Đặng Mỹ Ngọc' , 'Không 
 INSERT INTO nhan_khau VALUES (24, 5,'Con ruột', '1997-12-31' , null );
 INSERT INTO cong_dan VALUES (25,'012097008038', 'Phan Khánh Minh' , 'Không có' ,  'Nam' , '1997-10-9' , 'Lai Châu' , 'Lai Châu' , 'Kinh' , null , null , 'Lai Châu' , '2025-10-31', '012097008038');
 INSERT INTO nhan_khau VALUES (25, 5,'Con ruột', '1997-10-9' , null );
-INSERT INTO ho_khau VALUES (6, 'Số 7 ngách 41 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (6, 'Số 16 ngách 41 Ngõ 356 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (26,'084083003461', 'Võ Trang Vinh' , 'Không có' ,  'Nam' , '1983-6-16' , 'Trà Vinh' , 'Trà Vinh' , 'Kinh' , null , null , 'Trà Vinh' , '2025-10-31', '084083003461');
 INSERT INTO nhan_khau VALUES (26, 6,'Chủ hộ', '1983-6-16' , null );
 INSERT INTO cong_dan VALUES (27,'042179022503', 'Huỳnh Mỹ Hiền' , 'Không có' ,  'Nữ' , '1979-1-10' , 'Hà Tĩnh' , 'Hà Tĩnh' , 'Kinh' , null , null , 'Hà Tĩnh' , '2025-10-31', '042179022503');
@@ -64,7 +64,7 @@ INSERT INTO cong_dan VALUES (29,'026225032391', 'Võ Khánh Minh' , 'Không có'
 INSERT INTO nhan_khau VALUES (29, 6,'Con ruột', '2025-10-29' , null );
 INSERT INTO cong_dan VALUES (30,'049099007779', 'Đặng Khánh Tài' , 'Không có' ,  'Nam' , '1999-10-11' , 'Quảng Nam' , 'Quảng Nam' , 'Kinh' , null , null , 'Quảng Nam' , '2025-10-31', '049099007779');
 INSERT INTO nhan_khau VALUES (30, 6,'Con ruột', '1999-10-11' , null );
-INSERT INTO ho_khau VALUES (7, 'Số 6 ngách 31 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (7, 'Số 11 ngách 15 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (31,'044223000785', 'Hồ Văn Tài' , 'Không có' ,  'Nam' , '2023-6-4' , 'Quảng Bình' , 'Quảng Bình' , 'Kinh' , null , null , 'Quảng Bình' , '2025-10-31', '044223000785');
 INSERT INTO nhan_khau VALUES (31, 7,'Chủ hộ', '2023-6-4' , null );
 INSERT INTO cong_dan VALUES (32,'077180007735', 'Lý Thùy Hương' , 'Không có' ,  'Nữ' , '1980-10-30' , 'Bà Rịa - Vũng Tàu' , 'Bà Rịa - Vũng Tàu' , 'Kinh' , null , null , 'Bà Rịa - Vũng Tàu' , '2025-10-31', '077180007735');
@@ -75,7 +75,7 @@ INSERT INTO cong_dan VALUES (34,'070080015596', 'Bùi Minh Dũng' , 'Không có'
 INSERT INTO nhan_khau VALUES (34, 7,'Con ruột', '1980-11-13' , null );
 INSERT INTO cong_dan VALUES (35,'014184016247', 'Trần An Bình' , 'Không có' ,  'Nữ' , '1984-7-16' , 'Sơn La' , 'Sơn La' , 'Kinh' , null , null , 'Sơn La' , '2025-10-31', '014184016247');
 INSERT INTO nhan_khau VALUES (35, 7,'Con ruột', '1984-7-16' , null );
-INSERT INTO ho_khau VALUES (8, 'Số 19 ngách 33 Ngõ 355 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (8, 'Số 15 ngách 7 Ngõ 355 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (36,'082219022726', 'Phan Bảo Cường' , 'Không có' ,  'Nam' , '2019-7-3' , 'Tiền Giang' , 'Tiền Giang' , 'Kinh' , null , null , 'Tiền Giang' , '2025-10-31', '082219022726');
 INSERT INTO nhan_khau VALUES (36, 8,'Chủ hộ', '2019-7-3' , null );
 INSERT INTO cong_dan VALUES (37,'025176014707', 'Ngô Kim Ngọc' , 'Không có' ,  'Nữ' , '1976-2-7' , 'Phú Thọ' , 'Phú Thọ' , 'Kinh' , null , null , 'Phú Thọ' , '2025-10-31', '025176014707');
@@ -86,7 +86,7 @@ INSERT INTO cong_dan VALUES (39,'037092025749', 'Bùi Khánh Hoàng' , 'Không c
 INSERT INTO nhan_khau VALUES (39, 8,'Con ruột', '1992-10-20' , null );
 INSERT INTO cong_dan VALUES (40,'017093013983', 'Huỳnh Quang Khoa' , 'Không có' ,  'Nam' , '1993-6-8' , 'Hòa Bình' , 'Hòa Bình' , 'Kinh' , null , null , 'Hòa Bình' , '2025-10-31', '017093013983');
 INSERT INTO nhan_khau VALUES (40, 8,'Con ruột', '1993-6-8' , null );
-INSERT INTO ho_khau VALUES (9, 'Số 10 ngách 9 Ngõ 359 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (9, 'Số 3 ngách 19 Ngõ 356 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (41,'023081017260', 'Phan Đức Sơn' , 'Không có' ,  'Nam' , '1981-5-25' , 'Bắc Giang' , 'Bắc Giang' , 'Kinh' , null , null , 'Bắc Giang' , '2025-10-31', '023081017260');
 INSERT INTO nhan_khau VALUES (41, 9,'Chủ hộ', '1981-5-25' , null );
 INSERT INTO cong_dan VALUES (42,'037186000354', 'Đặng Ánh Giang' , 'Không có' ,  'Nữ' , '1986-6-25' , 'Ninh Bình' , 'Ninh Bình' , 'Kinh' , null , null , 'Ninh Bình' , '2025-10-31', '037186000354');
@@ -97,7 +97,7 @@ INSERT INTO cong_dan VALUES (44,'025095031388', 'Phan Bảo An' , 'Không có' ,
 INSERT INTO nhan_khau VALUES (44, 9,'Con ruột', '1995-9-29' , null );
 INSERT INTO cong_dan VALUES (45,'092189012462', 'Lý Thị Hiền' , 'Không có' ,  'Nữ' , '1989-3-30' , 'Cần Thơ' , 'Cần Thơ' , 'Kinh' , null , null , 'Cần Thơ' , '2025-10-31', '092189012462');
 INSERT INTO nhan_khau VALUES (45, 9,'Con ruột', '1989-3-30' , null );
-INSERT INTO ho_khau VALUES (10, 'Số 12 ngách 13 Ngõ 358 Minh Khai, Phường Vĩnh Tuy', null);
+INSERT INTO ho_khau VALUES (10, 'Số 5 ngách 42 Ngõ 358 Minh Khai, Phường Vĩnh Tuy', 'Thường trú');
 INSERT INTO cong_dan VALUES (46,'066300028737', 'Phạm Thùy Lan' , 'Không có' ,  'Nữ' , '2000-6-25' , 'Đắk Lắk' , 'Đắk Lắk' , 'Kinh' , null , null , 'Đắk Lắk' , '2025-10-31', '066300028737');
 INSERT INTO nhan_khau VALUES (46, 10,'Chủ hộ', '2000-6-25' , null );
 INSERT INTO cong_dan VALUES (47,'091302000789', 'Huỳnh Khánh Linh' , 'Không có' ,  'Nữ' , '2002-8-18' , 'Kiên Giang' , 'Kiên Giang' , 'Kinh' , null , null , 'Kiên Giang' , '2025-10-31', '091302000789');
