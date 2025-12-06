@@ -456,8 +456,8 @@ CREATE TABLE `tam_vang` (
   `thoi_gian_tam_vang_end` date DEFAULT NULL,
   `id_cd` int NOT NULL,
   PRIMARY KEY (`id_tv`),
-  KEY `id_cd` (`id_cd`),
-  CONSTRAINT `tam_vang_ibfk_1` FOREIGN KEY (`id_cd`) REFERENCES `nhan_khau` (`id_cd`)
+  KEY `tam_vang_ibfk_1_idx` (`id_cd`),
+  CONSTRAINT `tam_vang_ibfk_1` FOREIGN KEY (`id_cd`) REFERENCES `cong_dan` (`id_cd`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -488,4 +488,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-12-06 11:27:59
+-- Dump completed on 2025-12-06 12:30:17
